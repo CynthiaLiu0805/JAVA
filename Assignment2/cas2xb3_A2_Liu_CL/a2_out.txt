@@ -1,0 +1,9 @@
+BFS:Boston, New York City, Pittsburgh, Columbus, Chicago, Minneapolis
+DFS:Boston, New York City, Philadelphia, Baltimore, Washington, Charlotte, Atlanta, Nashville, Columbus, Indianapolis, St. Louis, Kansas City, Denver, Salt Lake City, Las Vegas, Los Angeles, San Francisco, Portland, Seattle, Minneapolis
+
+                City          Meal Choice         Cost of Meal
+       New York City     McChicken - Meal             3.79
+          Pittsburgh Double Cheeseburger - Meal       4.38
+            Columbus     McChicken - Meal             3.79
+             Chicago Double Cheeseburger - Meal       4.38
+         Minneapolis     McChicken - Meal             3.79

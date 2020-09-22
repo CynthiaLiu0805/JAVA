@@ -1,0 +1,42 @@
+3.1
+Identify what type of graph to use to solve this problem. 
+What do the nodes of the graph represent?
+What do edges represent? 
+Describe how you can use the graph and 
+the algorithms below to solve the given problem
+
+A weighted directed graph is used to solve this problem.
+The nodes of the graph represent the cities.
+The edges represent the route between two cities.
+I implement a graph with the connectedCities.txt. First, I initialise the hashmap with every city as a key and value set to null, 
+then for every line, set the second city to the value of first city. 
+The DepthFirstSearch find a possible routine from Boston to Minneapolis, while the BreadthFirstSearch finds a shortest routine. 
+
+
+3.2
+Implement a breadth-first search algorithm and a depth-first search algorithm to find a path from
+Boston to Minneapolis based upon the provided unidirectional routes between cities. The output
+specification is described below.
+Analyze which algorithm found the result in fewer steps? Will this remain true if the number of stops
+increases? Why or why not?
+
+In this case, the breadth-first search algorithm is faster. However, with the number of stops increases, depth-first search algorithm would be better.
+BFS would visit all connected city before visiting the connected cities of a connected city, while DFS visits all the connected cities of one connected city.  
+In this case, on a large graph, BFS need to hold an exponential number of items in the queue, while DFS only hold a linear number of items.
+At the same time, the time complexity of both BFS and DFS in both conditions would be O(V + E)
+
+3.3
+Implement a JUnit class to test that all possible routes are examined and the correctness of the routes, i.e. a route includes only cities that are connected and in the correct order.
+
+See mainTest.java
+
+
+3.4
+What is the complexity of this problem? 
+Will the complexity remain the same if the number of cities increases? What if the number of stops is increased? The number of restaurants? 
+
+The time complexity for this program is O(V+ElogV), where V is the number of vertices and E is the total number of edges
+The complexity would go up to O(V^2) if the number of cities and stops increase, but remain unchanged if the number of restaurant increase
+
+
+
