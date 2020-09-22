@@ -1,0 +1,108 @@
+Dear Cynthia Liu,
+
+This file consists of two parts: the marking guideline followed by your submission mark breakdown.
+
+*************  MARKING SCHEME GUIDELINE ********************
+
+Marking scheme for 2XB3 Assignment 1:
+Winter 2020
+
+Total Points:  100
+************************************************************************
+**  PROGRAM COMPILATION AND EXECUTION
+************************************************************************
+CE Program compiles w/o error 	Maximum points: 1  Weight:100%
+-1 if the program compiles w/o error
+-0 if doesn't compile - The TA must check if compilation error is due to dependency or versioning issue. If it is 0 the TA must leave detail comments about the failed efforts to get the program compile. 
+
+- If after all checks the grade for CE=0 the rest of the assignment wouldn't be marked.
+
+RE Program executes w/o errors  Maximum points: 4  Weight:100%
+-	How far is it running?
+- 	If the Input.txt is not used or it doesn't follow the required format (as announced)
+ but the TA can get the program tested with some effort (3/4) but if the program cannot be tested with our test cases 0/4
+- 	If Java built-in SET() is used 0/4 
+- The TA must leave sufficient comments when this item is less than 4/4  
+
+For example if your grade for RE is 2 out of 4 it means that your final mark (as calculated by the forthcoming items) will be multiplied by 0.5.
+Apparently if your code does not compile (CE=0) or does not run at all (RE=0) regardless of the rest of your code, your final mark will be 0.   
+
+***************************************************************************
+**  Set ADT implementations: Correctness - 45% 
+- The program will be tested against our test cases for all 8 operations [0-1 for each]
+************************************************************************
+OP1	Set Union (7 mark)
+OP2	Set Intersection (6 mark)
+OP3	Set Difference(6 mark)
+OP4	Set Product(7 mark)
+OP5	isEqual(6 mark)
+OP6	isSubset(6 mark)
+OP7	getCount(4 mark)
+OP8	toString(3 mark)
+
+***************************************************************************
+**  Set ADT implementations: Quality - 20% 
+- The quality of program will be tested against the following three qualities and a value between [0-5] will be assigned for each as described below. The TA must leave comment for each deducted value)
+************************************************************************
+Q1	Immutability of the SET ADT (7 mark)
+Q2	Encapsulation of SET ADT (check for proper constructor, proper accessors, proper constructor, proper variables) (7 mark)
+Q3	Modularization and Efficiency of the program (check for example if all client codes (or test codes) are left inside the SET ADT etc.) (6 mark)
+ 
+************************************************************************
+**  Testing  20%
+************************************************************************
+TT1	Test Methods[0-8]. (10 mark) Is every test method implemented (or is JUnit used to test every method)? (8 if all 8 operations are tested, -1 for each missing method), Any deduction for this mark requires a comment. 
+TT2	Edge Cases[0-3] (10 mark)
+-	Are edge cases being tested? 
+-	3/3 covered most, if not, all edge cases. 
+-	2/3 covered many edge cases, but missed a few important ones. 
+-	1/3 covered only a few edge cases. 
+-	0/3 did not test any edge cases.
+-	Any deduction for this mark requires a comment. 
+
+************************************************************************
+**  Comments and Formatting - 15%
+************************************************************************
+ST1	Quality of API document and presence of assumptions and design decisions [0-5] (5 mark) 
+ST2	Format of output.txt is readable and report all test cases [0-5] (4 mark)
+ST3	Quality of comments in the codes [0-5] (4 mark)
+ST4	Correctness of file names and required information including student name, etc. [0-5] (2 mark) 
+*********************************
+
+*************  SUBMISSION MARK BREAKDOWN ********************
+
+The following are the marks associated with your submission.
+
+ The displayed points (except for the total) are the points you earned for each item which is between 0 to Maximum point for the corresponding item. The mark is then computed based on the weight of the corresponding item in the marking scheme. For example if the weight for an item  is 10 and your point for the item is 3 out 6 , it means that you have received 50% of the mark for that item which is 5.
+
+ Student ID: liuy363
+
+A1: 87.66666667
+CE: 1
+RE: 4
+OP1: 1
+OP2: 1
+OP3: 1
+OP4: 1
+OP5: 1
+OP6: 1
+OP7: 1
+OP8: 1
+Q1: 5
+Q2: 5
+Q3: 5
+TT1: 8
+TT2: 2
+ST1: 0
+ST2: 0
+ST3: 5
+ST4: 5
+Late (hour - floor) : 
+Comments: 1. No API document   2. No output file   3. Missing edge test cases
+MSAF: 0
+ :  
+
+
+*********************************
+
+
